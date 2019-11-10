@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#mainpageinside{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#post{
+    display: flex;
+    border: 2px solid white;
+    padding: 10px;
+    flex-direction: column;
+}
+#uname{
+    border-bottom: 2px solid white;
+    flex-wrap: wrap;
+    font-size: 18pt;
+}
+#title{
+    flex-wrap: wrap;
+}
+#date{
+    flex-wrap: wrap;
+    justify-items: right;
+    float: right;
+    font-size: 10pt;
+}
+#blogpost{
+    flex-wrap: wrap;
+}
+#inside{
+    padding: 10px;
+    flex-direction: row;
+}
+#nav-placeholder{
+    flex-wrap: wrap;
+    display: grid;
+    background-color: brown;
+    text-align: center;
+    font-size: 20pt;
+    height: 70px;
+    text-decoration: none;
+    border: 3px solid white;
+    color: white;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.home-nav{
+    grid-row: 2;
+    grid-column: 1;
+}
+.bp-nav{
+    grid-row: 2;
+    grid-column: 2;
+}
+.ca-nav{
+    grid-row: 2;
+    grid-column: 3;
+}
+.signin-nav{
+    grid-row: 2;
+    grid-column: 4;
+}
+button {
+	box-shadow:inset 0px 1px 0px 0px #a6827e;
+	background:linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%);
+	background-color:#7d5d3b;
+	border-radius:3px;
+	border:1px solid #54381e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4d3534;
+}
+button:hover {
+	background:linear-gradient(to bottom, #634b30 5%, #7d5d3b 100%);
+	background-color:#634b30;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+#createuser,
+#addpost,
+#search{
+    width: 200px;
+}
